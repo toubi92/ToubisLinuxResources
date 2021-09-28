@@ -1,0 +1,8 @@
+" https://github.com/vifm/vifm/blob/master/data/vifmrc
+colorscheme Default-256 Default
+set ignorecase
+set smartcase
+set hlsearch
+set incsearch
+set scrolloff=4
+set statusline="  Hint: %z%= %A %10u:%-7g %15s %20d  "
