@@ -9,10 +9,10 @@ Save to `/local/home/tobiasri/.ssh/id_ed25519_git`
 	
 Add
 
-Host gitlab.ethz.ch
-HostName gitlab.ethz.ch
-User git
-IdentityFile ~/.ssh/id_ed25519_git
+	Host gitlab.ethz.ch
+	HostName gitlab.ethz.ch
+	User git
+	IdentityFile ~/.ssh/id_ed25519_git
 
 Add the public key to your account: 
 https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
