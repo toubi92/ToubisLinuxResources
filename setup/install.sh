@@ -13,6 +13,7 @@ sudo apt-get install -y tmux vim vifm
 
 # Customize installations
 ./vim/customize.sh
+./tmux/customize.sh
 
 # Init files
 write_once "source $SCRIPT_DIR/vim/.vimrc" ~/.vimrc
