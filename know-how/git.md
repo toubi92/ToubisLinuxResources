@@ -21,6 +21,10 @@ https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-
 Skip deleted files (they only trash up the diff...):
 
 	git diff --diff-filter=d
+
+Use a 3rd party tool to display changes
+
+	git difftool --tool=vimdiff
 	
 ## Log w trees
 Git is a tree of commits.
