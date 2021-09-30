@@ -35,6 +35,10 @@ Show the branching hierarchy with
 ## Changed files
 
 	git diff --name-only 3e5d922cb HEAD
+
+## Checkout a file from another branch
+
+	git checkout experiment -- app.js
 	
 ## Import a range of commits to another branch
 https://stackoverflow.com/questions/1994463/how-to-cherry-pick-a-range-of-commits-and-merge-into-another-branch
