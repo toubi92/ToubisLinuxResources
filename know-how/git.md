@@ -59,6 +59,12 @@ Remove ignored files
 
 	git clean -fX
 
+## Easier than below: git subtree
+(https://www.atlassian.com/git/tutorials/git-subtree)
+
+	git remote add oh-my-bash git@github.com:ohmybash/oh-my-bash.git
+	git subtree add --prefix setup/bash/oh-my-bash oh-my-bash master --squash
+
 ## Import thirdparty repo as submodule
 In case you will need to do some changes - Fork the 3rd party repo first.
 E.g. in gitlab: Import project from url.
