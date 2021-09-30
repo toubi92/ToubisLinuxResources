@@ -105,3 +105,14 @@ First create an empty repository on github. Then go terminal
 	git branch -M master
 	git remote add origin git@github.com:toubi92/ToubisLinuxResources.git
 	git push -u origin master
+
+## Temporary commits for backup (should this be used?)
+I hope I got this right:
+
+	git commit -am "tmp"
+	git checkout HEAD~1
+	git modify the sources to the better
+	git commit -am "da real commit"
+	git checkout -B master # sets the master ref without changing local state
+	git gc --prune=now # removes unreachable commits (no ref pointing to it)
+	git log --graph --decorate $(git rev-list -g --all) # This still shows the lost commit
