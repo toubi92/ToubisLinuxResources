@@ -11,3 +11,7 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 filetype plugin indent on
+
+"Macros
+"Search & Replace
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
