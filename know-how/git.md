@@ -116,3 +116,10 @@ I hope I got this right:
 	git checkout -B master # sets the master ref without changing local state
 	git gc --prune=now # removes unreachable commits (no ref pointing to it)
 	git log --graph --decorate $(git rev-list -g --all) # This still shows the lost commit
+
+## Modify last commit (e.g. add some more files, comments, ...)
+Stage the files you would like to get included
+
+    git commit --amend
+
+Will open a dialog to edit the commit message
