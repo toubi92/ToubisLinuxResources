@@ -7,6 +7,8 @@ Select content with `v` (character selection) or `V` (line selection)
 `y` - copy
 `p` - paste
 
+In command mode, paste a buffer into command line using Ctrl+R - 0 (or another number)
+
 ## Indentation
 In Vim in Linux you can unindent multiple lines by using `v` to select your first line. 
 Press the down arrow to select multiple lines. Then type `<` to unindent all of the lines.
