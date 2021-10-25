@@ -9,7 +9,8 @@ function write_once {
 }
 
 # Necessary packages
-sudo apt-get install -y tmux vim vifm
+sudo apt-get install -y tmux vim vifm \
+    powerline #Skins
 
 # Customize installations
 ./vim/customize.sh
@@ -19,3 +20,4 @@ sudo apt-get install -y tmux vim vifm
 write_once "source $SCRIPT_DIR/vim/.vimrc" ~/.vimrc
 write_once "source $SCRIPT_DIR/vifm/.vifmrc" ~/.vifmrc
 write_once "source $SCRIPT_DIR/bash/.bashrc" ~/.bashrc
+write_once "source $SCRIPT_DIR/tmux/.tmux.conf" ~/.tmux.conf
