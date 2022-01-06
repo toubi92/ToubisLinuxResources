@@ -2,6 +2,9 @@
 set hlsearch
 set incsearch
 
+"Syntax highlighting for known file types
+syntax on
+
 "Custom color scheme (for vmdiff as of now)
 colorscheme toubiscolorscheme
 
