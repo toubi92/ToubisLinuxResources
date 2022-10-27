@@ -10,7 +10,8 @@ function write_once {
 
 # Necessary packages
 sudo apt-get install -y tmux vim vifm \
-    powerline #Skins
+    powerline \ #Skins
+    locales #For proper display of tmux bars
 
 # Customize installations
 ./vim/customize.sh
