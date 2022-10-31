@@ -15,3 +15,6 @@ plugins=(
   bashmarks
 )
 source $SCRIPT_DIR/oh-my-bash/oh-my-bash.sh
+
+#Need that variable to properly display powerline in tmux
+alias tmux='LC_ALL=en_US.UTF-8 tmux'
