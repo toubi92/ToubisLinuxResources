@@ -11,5 +11,8 @@ set dotfiles
 " Open a new tmux pane in current directory
 nnoremap <C-w>a :%!tmux new-window -c %d<cr>
 
+" Open file in a new tmux pane
+nnoremap o :%!tmux new-window -c %d 'vim %c'<cr>
+
 " Switch preview pane
 nnoremap w :view<cr>
